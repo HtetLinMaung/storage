@@ -1,0 +1,11 @@
+
+
+POST http://localhost:5100/storage/api/create-bucket HTTP/1.1
+content-type: application/json
+
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiJhZG1pbiIsImFwcGlkIjoic2FrYXJ3aW5lIiwiY29tcGFueWlkIjoidGVjaGh5cGUiLCJjb21wYW55bmFtZSI6InRlY2hoeXBlIiwicm9sZSI6InN1cGVyYWRtaW4iLCJpYXQiOjE2NDA4NTkzNDYsImV4cCI6MTY0MDk0NTc0Nn0.EMPziMsAKrwf-REU9HqvwJlbGTxYSUMb4JLpZEaqdY4",
+    "bucketname": "test_bucket",
+    "appid": "sakarwine"
+}
